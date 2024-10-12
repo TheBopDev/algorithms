@@ -9,7 +9,7 @@
 
 
 #include <math.h>
-#include "LLE.h"
+///#include "LLE.h"
 
 
 /// We don't need this.
@@ -33,8 +33,8 @@ double fnd_calcKolomogorovEntropy(double *pad_lyapunovExpArr[], int i_arrLength)
 /// X_i is the state of the system at discrete time i.
 struct st_stateOfSystem_X_i
 {
-	double* pad_timeSeriesData[];
-}
+	double* pad_timeSeriesData;
+};
 
 
 /// For an N-point time series, {x_1, x_2, ... x_n}, each X_i is given by
