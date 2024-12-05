@@ -72,7 +72,7 @@ $(BUILD_DIR):
 
 
 run:
-	./build/./myprog
+	./build/./myprog infile outfile
 
 .PHONY: clean
 clean:

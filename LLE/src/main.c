@@ -54,6 +54,9 @@ int main(int argc, char* argv[])
 	}
 
 
+	/// If the user passed a file, open it (ARG1)
+	printf(arguments)
+
 	/// How do we want to import the time-series data to analyze?
 	
 	/// Flags:
